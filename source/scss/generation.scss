@@ -1,0 +1,27 @@
+.new__generation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
+}
+.new__generation p{
+    font-size: 18px;
+    font-family: 'Lato';
+}
+.generation__title p{
+    font-weight: 700;
+    text-align: center;
+}
+.generation_sub p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #848789;
+    line-height: 34px;
+}
+.generation_logo {
+    margin-bottom: 34px;
+}
+.generation__title {
+    margin-bottom: 35px;
+}

@@ -1,0 +1,60 @@
+.footer{
+    background-color:#f7f7f7;
+    padding: 100px 0;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+}
+.footer__contact {
+    color: #848789;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer__contact h2{
+    font-weight: 700;
+}
+.footer__social {
+    display: flex;
+}
+.footer__social div{
+    margin-right: 10px;
+}
+.footer__social-tw {
+}
+.footer__social-fb {
+
+}
+.footer__social-pin {
+
+}
+.footer__signature a{
+    display: flex;
+}
+.footer__signature h3{
+    font-size: 14px;
+    color: #848789;
+    font-style: italic;
+    padding: 0px 10px 0px 0px;
+    align-self: center;
+}
+
+@media (max-width: 768px){
+    .footer__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__contact{
+        order: 3;
+        text-align: center;
+    }
+    .footer__social{
+        order: 2;
+        margin-bottom: 30px;
+    }
+    .footer__signature{
+        order: 1;
+        margin-bottom: 30px;
+    }
+}

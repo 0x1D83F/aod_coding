@@ -1,0 +1,40 @@
+.feedback__items {
+    padding: 110px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feedback__items-logo {
+    margin: 0px 0px 40px 0px;
+}
+.feedback__items-title {
+    color: #848789;
+    font-size: 24px;
+    font-style: italic;
+    margin: 0px 0px 35px 0px;
+}
+.feedback__items-email form{
+    display: flex;
+}
+.feedback__items-email__input input{
+    width: 100%;
+    border: 1px solid #d3d7d9;
+    height: 69px;
+    padding: 0px 30px;
+    color: #929292;
+    font-size: 20px;
+    font-style: italic;
+}
+.feedback__items-email__btn button{
+    height: 100%;
+    line-height: 69px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: #64c29e;
+    width: 100%;
+    padding: 0 45px;
+    margin-left: 10px;
+}

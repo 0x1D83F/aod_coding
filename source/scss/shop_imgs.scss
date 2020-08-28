@@ -1,0 +1,117 @@
+.shop__feed {
+    width: 100%;
+    display: flex;
+}
+.feed__block {
+    flex: 0 1 33.334%;
+}
+.feed__block_header {
+    display: flex;
+}
+.feed__block_footer {
+    background: url(../img/shop/Layer_20.jpg) center / cover no-repeat;
+    padding-bottom: 50%;
+}
+.feed__block-sec{
+    display: flex;
+}
+.feed__block-img_bg {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_22.jpg) 0 0 / cover no-repeat;
+    
+}
+.feed__block-img_bg-s {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_25.jpg) center / cover no-repeat;
+}
+
+.feed__block-th {
+    display: flex;
+    flex-direction: column;
+}
+.feed__block-bg_o {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_23.jpg) center / cover no-repeat;
+    padding-bottom: 50%;
+}
+.feed__block-bg_t {
+    display: flex;
+}
+.feed__block-bg__t-first {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_24.jpg) center / cover no-repeat;
+    padding-bottom: 50%;
+}
+.feed__block-bg__t-sec {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_26.jpg) center / cover no-repeat;
+}
+.feed__block-bg__f-first {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_19.jpg) center / cover no-repeat;
+}
+.feed__block-bg__f-sec {
+    flex: 0 1 50%;
+    background: url(../img/shop/Layer_21.jpg) center / cover no-repeat;
+    padding-bottom: 50%;
+}
+.feed_positive{
+    position: relative;
+}
+.shop_now{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(100, 194, 158, 0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+}
+.shop_now:hover{
+    opacity: 1;
+}
+.show_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show_wrap img{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.show_wrap h2{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.shop__feed-btn {
+    background-color: #282f35;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.shop__feed-btn-row {
+}
+.shop__feed-btn-row a {
+    line-height: 48px;
+    letter-spacing: 2.8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 14px 50px;
+    transition: .3s;
+}
+.shop__feed-btn-row a:hover{
+    background-color: #fff;
+    color: #282f35;
+}
